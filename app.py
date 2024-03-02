@@ -9,6 +9,7 @@ import requests
 import nltk
 
 nltk.download('stopwords')
+nltk.download('punkt')
 
 st. set_page_config(layout="wide")
 
