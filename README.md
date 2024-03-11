@@ -2,12 +2,16 @@
 
 The Paper-Reader-Analyzer is a web-based application that allows users to quickly find and analyze research papers on topics of interest. The app uses the Semantic Scholar API to search for papers and extract relevant information such as title, authors, abstract, publication venue, and citation count. The app also provides a summary of the paper and an option to view additional information such as fields of study, publication types, and open access PDFs. [Try it out here](https://analyzepaper.streamlit.app/)
 
+Note: Currently, the responses are cached based on _topic & num-papers_ on the server for 10 mins.
+
 ## Features
 
 * Search for research papers on a specific topic.
 * View paper title, authors, abstract, and summary.
 * View additional paper information such as fields of study, publication types, and other metadata.
 * Ask and answer questions related to the papers. (TODO)
+* Fallback to another API if Semantic Scholar fails. (TODO)
+* Add topic-wise caching and refer the cache based on num papers. (TODO)
 
 ## Getting Started
 
